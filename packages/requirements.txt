@@ -1,2 +1,9 @@
 django==1.2 
 
+# checkov:skip=CVE-2023-25668: Test CVE 1
+# checkov:skip=CVE-2023-25661: Test CVE 2
+pandas
+scipy
+matplotlib
+tensorflow==2.8.4
+validate_email
